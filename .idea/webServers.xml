@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bbd937d1-016f-4f6a-945a-a30650aceff2" name="Idist" url="http://ckan.idist.dev">
+        <fileTransfer rootFolder="/home/web/ckan-docker" accessType="SFTP" host="113.160.44.242" port="22" sshConfigId="4f1ca26b-1543-41df-907a-aefa12be8cb7" sshConfig="idist@113.160.44.242:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
