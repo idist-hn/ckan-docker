@@ -4,5 +4,7 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ckan/app/src/ckan" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ckan/app/src/ckanext-envvars" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ckan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/ckanext-envvars" vcs="Git" />
   </component>
 </project>

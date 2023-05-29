@@ -39,7 +39,7 @@ services:
       - "0.0.0.0:${CKAN_PORT_HOST}:${CKAN_PORT}" 
     volumes:
       - ckan_storage:/var/lib/ckan
-      - ckan/app:/srv/app
+      - ./ckan/app/src/ckan/ckan/templates-bs3:/srv/app/src/ckan/ckan/templates-bs3
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "-qO", "/dev/null", "http://localhost:5000"]
